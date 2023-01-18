@@ -355,7 +355,7 @@ final class WP_Site {
 /*
 *
 * Here is a PHP code snippet that can be used to add an option to the WordPress general settings page, which allows you to disable the Gutenberg block editor and enable the classic editor:
-*?
+*/
 <?php
     // Register the setting
     add_action( 'admin_init', 'register_classic_editor_settings' );
